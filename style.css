@@ -13,6 +13,7 @@ h2{
     margin: 30px 80px;
     font-size: 35px;
 }
+
 /*header*/
 header{
     display: flex;
@@ -53,8 +54,7 @@ header{
 }
 /*section*/
 section{
-    min-height: 640px;
-    /*background-color: violet;*/
+    min-height: 590px;
 }
 /*footer*/
 footer{
@@ -65,7 +65,7 @@ footer{
     width: 100%;
     height: 50px;
     border-top: 1px solid lightgray;
-    /*background-color: turquoise;*/
+    margin-top: 50px;
 }
 .footer1{
     flex: 8;
@@ -90,9 +90,9 @@ footer{
 .main img{
     width: 400px;
     height: 500px;
-    border-radius: 100px;
     display: block;
     margin-left: 250px;
+    border-radius: 100px;
 }
 .mainImage{
     flex: 5;
@@ -110,16 +110,17 @@ footer{
 .about img{
     width: 400px;
     height: 500px;
-    border-radius: 100px;
     display: block;
     margin-left: 250px;
+    border-radius: 100px;
 }
 .aboutImage{
     flex: 5;
 }
 .aboutText{
     flex: 5;
-    font-size: 20px;   
+    font-size: 18px;
+    line-height: 35px; 
 }
 
 /*history.html*/
@@ -130,27 +131,39 @@ footer{
 }
 .historyList{
     height: 500px;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 1px 1px 3px 1px lightgray;
-    margin: 20px 60px;
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .history img{
-    margin: 50px;
     width: 450px;
-    height: 350px;
-    float: left;
+    height: 500px;
+    flex: 5;
+    border-radius: 10px;
 }
 .historyText{
-    margin: 50px;
+    padding: 0 20px;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
-.historyText span{
-    font-size: 30px;
-    font-weight: bold;
-}
-.historyText p{
+.historyText1{
     font-size: 20px;
+    margin: 0;
 }
-
+.historyText2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.historyText3{
+    font-size: 18px;
+    line-height: 35px;
+}
 /*interests.html*/
 .interests{
     display: flex;
@@ -159,25 +172,34 @@ footer{
 }
 .interestsList{
     height: 500px;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 1px 1px 3px 1px lightgray;
-    margin: 20px 60px;
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .interestsList img{
-    margin: 50px;
     width: 450px;
-    height: 350px;
-    float: left;
+    height: 500px;
+    flex: 5;
+    border-radius: 10px;
 }
 .interestsText{
-    margin: 50px;
+    padding: 0 20px;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
-.interestsText span{
-    font-size: 30px;
+.interestsText1{
+    font-size: 35px;
     font-weight: bold;
+    margin-top: 15px;
 }
-.interestsText p{
-    font-size: 20px;
+.interestsText2{
+    font-size: 18px;
+    line-height: 35px;
 }
 
 /*contact.html*/
@@ -189,7 +211,7 @@ footer{
     grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-row-end: 2;    
 }
 .contact2{
     grid-column-start: 1;
@@ -197,6 +219,8 @@ footer{
 	grid-row-start: 2;
 	grid-row-end: 3;
     margin: 20px auto;
+    padding: 0 130px;
+    border-right: 1px solid lightgray;
 }
 .contact2 p{
     font-size: 20px;
@@ -205,7 +229,8 @@ footer{
     margin: 0 auto;
 }
 .contact3 p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     text-align: left;
 }
+
