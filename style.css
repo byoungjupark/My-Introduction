@@ -1,3 +1,18 @@
+/*mobile device*/
+@media screen and (max-width: 768px) {
+    h2{
+        margin: auto;
+    }
+    footer{
+        display: flex;
+        flex-flow: column;
+    }
+    section{
+        display: flex;
+        flex-flow: column;
+    }
+ }
+
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
@@ -66,7 +81,7 @@ footer{
 .footer2{
     display: inline-block;
     justify-content: space-around;
-    margin: auto;
+    margin: 10px auto;
 }
 .footer2 img{
     width: 35px;
@@ -79,20 +94,22 @@ footer{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    
     margin-top: 100px;
 }
 .main img{
     width: 400px;
     height: 500px;
     display: block;
-    margin-left: 250px;
+    margin: auto;
     border-radius: 100px;
 }
 .mainImage{
-    flex: 5;
+    width: 50%;
 }
 .mainText{
-    flex: 5;
+    text-align: justify;
+    width: 50%;
 }
 
 /*about.html*/
@@ -102,34 +119,37 @@ footer{
     align-items: center;
     margin-top: 100px; 
 }
-.about img{
+.about img{    
     width: 400px;
     height: 500px;
     display: block;
-    margin-left: 250px;
+    margin: auto;
     border-radius: 100px;
 }
 .aboutImage{
-    flex: 5;
+    width: 50%; 
+    
 }
 .aboutText{
-    flex: 5;
-    font-size: 18px;
-    line-height: 35px; 
-    text-align: justify;
+    width: 40%;
+    font-size: 20px; 
+    line-height: 35px;
+    text-align: justify;    
 }
 
 /*history.html*/
 .history{
     display: flex;
     flex-flow: column;
+    align-items: center;
     margin-top: 100px;
 }
 .historyList{
     height: 500px;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 1px lightgray;
-    margin: 50px 200px;
+    width: 70%;
+    margin: 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -166,13 +186,15 @@ footer{
 .interests{
     display: flex;
     flex-flow: column;
+    align-items: center;
     margin-top: 100px;
 }
 .interestsList{
     height: 500px;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 1px lightgray;
-    margin: 50px 200px;
+    width: 70%;
+    margin: 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
