@@ -5,6 +5,7 @@
   <title>My Introduction</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.png" type="image/x-icon"/>
+  <script src="js.js"></script>
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <div class="logo">
       <a href="index.html">
       <p class="logo1">Web Developer</p>
-      <p class="logo2">Byoungju Park</p>
+      <span class="logo2">Byoungju Park</span>
       </a>
     </div>
     <nav class="menu">
@@ -22,15 +23,16 @@
       <a href="interests.html">INTERESTS</a>
       <a href="contact.html">CONTACT</a>
     </nav>
+    <input type="button" value="Dark" onclick="changeColor(this)";>
   </header>
 
   <section class="main">
     <div class="mainImage"><img src="index.jpeg"/></div>
     <div class="mainText">
-      <p style="font-size: 90px; font-weight: bold; color: #0716CD;">"Hello"<br>
-      <span style="font-size: 30px; color: #000000;">Welcome to My Website<br>
-      Here's who I am, what I do</span>
-      </p>
+      <span class="hello" style="font-size: 90px; font-weight: bold; color: #0716CD;">"Hello"</span><br>
+      <p style="font-size: 30px; font-weight: bold;">Welcome to My Website<br><br>
+      Here's who I am, what I do</p>
+      
     </div> 
   </section>
 

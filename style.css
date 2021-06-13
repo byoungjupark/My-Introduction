@@ -12,6 +12,10 @@
         flex-flow: column;
     }
  }
+/*Dark mode*/
+body.dark-theme{
+    background-color: #292A2D;
+}
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
